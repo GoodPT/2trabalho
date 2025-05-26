@@ -1,20 +1,52 @@
-# Jogo 2D - Pong (MonoGame)
+🌟 MiniAventura 🌟
+Um jogo 2D simples e divertido criado com MonoGame.
 
-## Descrição da Implementação
-Este projeto é uma implementação simples do clássico jogo Pong, desenvolvida em MonoGame.
-O jogo apresenta dois jogadores controlando paredes verticais para rebater uma bola,
-com lógica básica de movimentação e colisão.
+🎮 Como Jogar
+🕹️ Controles:
 
-## Decisões Tomadas
-- Optou-se por recriar o Pong por ser um exemplo clássico e de fácil implementação para consolidar conhecimentos de jogos 2D.
-- Implementou-se o movimento das paredes com teclas de controlo específicas para cada jogador.
-- A bola foi programada para movimentar-se automaticamente e mudar de direção ao colidir 
-- com as paredes ou com as bordas superior e inferior do ecrã.
+Mover: W, A, S, D
 
-## Instruções de Jogo
-- **Jogador 1:** Usa as teclas `W` (cima) e `S` (baixo) para mover a raquete.
-- **Jogador 2:** Usa as teclas de seta `↑` (cima) e `↓` (baixo) para mover a raquete.
-- O objetivo é evitar que a bola ultrapasse a sua raquete.
+Atirar: Espaço
+
+📌 Objetivo:
+
+Desvie dos inimigos e elimine-os com tiros.
+
+Quando colidir com um inimigo, o jogo entra em modo Game Over.
+
+Pressione Espaço para reiniciar a partida.
+
+🏆 Funcionalidades
+✅ Personagem controlável (cubo vermelho)
+✅ Inimigos com tamanhos variados e cores diversificadas
+✅ Sistema de tiros e sons de disparo e eliminação
+✅ Tela de Game Over com reinício (aperte Espaço)
+✅ Menu inicial com fundo e animação de movimento do background (parallax)
+✅ Score e Highscore visíveis durante o jogo
+
+📁 Estrutura do Projeto
+
+MiniAventura/
+├── Game1.cs              # Código principal do jogo
+└── Content/              # Recursos do jogo
+    ├── background.png    # Imagem do fundo
+    ├── shoot.wav         # Som do disparo
+    ├── enemy_hit.wav     # Som ao matar inimigo
+    └── DefaultFont.spritefont # Fonte do jogo
+
+
+💡 Ideias Futuras
+Animações para o personagem e inimigos.
+Mais tipos de inimigos e power-ups.
+Movimento do tiro na direção do mouse ou do último movimento.
+Sistema de pontuação mais avançado com leaderboard.
+
+🚀 Comece a Jogar!
+Compile e execute o projeto MonoGame.
+Pressione Espaço no menu para começar.
+
+Divirta-se e desafie-se a bater o highscore!
+
 
 ## Identificação do Grupo
 - Nome do aluno: Pedro Pinheiro
@@ -24,11 +56,3 @@ com lógica básica de movimentação e colisão.
 - Nome do aluno: Martim Guerra
 - Número de aluno: 31494
 
-## Como Executar o Projeto
-1. Instalar o MonoGame.
-2. Clonar ou descarregar este repositório.
-3. Abrir o projeto no Visual Studio.
-4. Compilar e executar o projeto.
-
-## Repositorio Original
-https://github.com/dapeduu/Pong
